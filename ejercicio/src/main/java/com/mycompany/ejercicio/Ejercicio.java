@@ -11,6 +11,7 @@ public class Ejercicio {
         String apellidos = datos.nextLine();
         
         System.out.println("Buenos días  "  + nombre  + apellidos );
-                
+        
+        datos.close();
     }
 }
